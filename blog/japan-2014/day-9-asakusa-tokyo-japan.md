@@ -3,6 +3,7 @@ title: "Day 9 - Asakusa"
 date: "2014-09-23"
 image: "/uploads/DSC03701.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Asakusa, een oude stad waar nog shrines zijn te vinden. In Kyoto en Osaka gaan we nog meer Shrines en Tempels...
 ---
 
 Asakusa, een oude stad waar nog shrines zijn te vinden. In Kyoto en Osaka gaan we nog meer Shrines en Tempels bekijken, maar bij deze alvast een voorproefje!

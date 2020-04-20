@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="greeting">
-      <img class="greet-image" src="https://www.danhnguyen.nl/wp-content/uploads/20191120_183513-scaled.jpg" alt="Foto van Merzouga Desert" />
+      <img class="greet-image" src="https://www.danhnguyen.nl/wp-content/uploads/KQD17S0BRO-e1449658156704.jpg" alt="Foto van boek" />
       <img class="avatar" src="https://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg" alt="Foto van Danh Nguyen"/>
     </div>
 
@@ -105,5 +105,7 @@ query {
 </page-query>
 
 <style lang="scss" scoped>
-
+.greet-image {
+  object-position: center;
+}
 </style>

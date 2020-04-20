@@ -1,8 +1,9 @@
 ---
 title: "Day 12 - We didn't do shit, Tokyo, Japan"
-date: "2014-09-27"
+date: "2014-09-26"
 image: "/uploads/DSC03975.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: As the title says. Even langs Akihabara om nieuwe figurines te halen en lekker gegamed zoals Initiaaaal D...
 ---
 
 As the title says. Even langs Akihabara om nieuwe figurines te halen en lekker gegamed zoals Initiaaaal D!

@@ -68,7 +68,8 @@ body {
 .greet-image {
   display: block;
   object-fit: cover;
-  height: 300px;
+  object-position: bottom;
+  height: 250px;
   width: 100%;
 }
 

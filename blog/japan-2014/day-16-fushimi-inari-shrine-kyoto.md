@@ -3,6 +3,7 @@ title: "Day 16 - Fushimi Inari Shrine, Kyoto"
 date: "2014-09-30"
 image: "/uploads/DSC04261.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Tijd om de Fushimi Inari Shrine te bekijken...
 ---
 
 Tijd om de Fushimi Inari Shrine te bekijken!

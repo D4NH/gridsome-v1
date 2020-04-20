@@ -3,6 +3,7 @@ title: "Day 2 - Shinjuku & Shibuya"
 date: "2014-09-16"
 image: "/uploads/DSC02980.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Vandaag wel op tijd wakker, maar eerlijk gezegd nog steeds moe. Gisteren was het helaas half 5 voordat we in slaap vielen...
 ---
 
 Vandaag wel op tijd wakker, maar eerlijk gezegd nog steeds moe. Gisteren was het helaas half 5 voordat we in slaap vielen.

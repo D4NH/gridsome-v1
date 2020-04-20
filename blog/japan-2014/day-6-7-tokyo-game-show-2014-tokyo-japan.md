@@ -3,6 +3,7 @@ title: "Day 6 & 7 - Tokyo Game Show 2014"
 date: "2014-09-20"
 image: "/uploads/DSC03449.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Mijn mening, erg vette plek. De game aanbod viel tegen. Gekke nederlanders die niets anders dan de 'K' woord...
 ---
 
 Mijn mening, erg vette plek. De game aanbod viel tegen. Gekke nederlanders die niets anders dan de 'K' woord zeggen. Maar bij deze veel foto's. Geniet ervan! xD

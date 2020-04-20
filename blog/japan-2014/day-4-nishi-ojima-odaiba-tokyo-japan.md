@@ -3,6 +3,7 @@ title: "Day 4 - Nishi-Ojima & Odaiba"
 date: "2014-09-18"
 image: "/uploads/DSC03145.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: In Japan heb je sushi, jawel sushi. Maar dit is sushi waar de gerechten voor je klaar worden gezet op een conveyer...
 ---
 
 In Japan heb je sushi, jawel sushi. Maar dit is sushi waar de gerechten voor je klaar worden gezet op een conveyer belt. Die heb je wel in Nederland zoals bij Happy Sushi bij R'dam, maar dit is toch specialer omdat je je bestellingen kunt plaatsen dmv een touchscreen device!

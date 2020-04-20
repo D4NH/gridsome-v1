@@ -3,6 +3,7 @@ title: "Day 5 - Hamamatsucho & Ginza"
 date: "2014-09-19"
 image: "/uploads/DSC03288.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: What to do what to do... dachten we na ons ontbijt. Maar Hamamatsucho & Ginza it is...
 ---
 
 What to do what to do... dachten we na ons ontbijt. Maar Hamamatsucho & Ginza it is!

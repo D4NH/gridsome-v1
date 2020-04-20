@@ -3,6 +3,7 @@ title: "Day 3 - Akihabara"
 date: "2014-09-17"
 image: "/uploads/DSC03050.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Akihabara, Anime, Manga, Games, Electronics enzo...
 ---
 
 Akihabara, Anime, Manga, Games, Electronics enzo.

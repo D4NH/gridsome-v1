@@ -1,8 +1,9 @@
 ---
 title: "Day 8 - Ikebukuro & Akihabara, Tokyo, Japan"
-date: "2014-09-23"
+date: "2014-09-22"
 image: "/uploads/DSC03662.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Niet veel gedaan. Paar dingen gekocht, in een arcade hall gezeten. Lekker gamen, lekker eten. The good life...
 ---
 
 Niet veel gedaan. Paar dingen gekocht, in een arcade hall gezeten. Lekker gamen, lekker eten. The good life xD

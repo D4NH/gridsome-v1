@@ -3,6 +3,7 @@ title: "Day 15 - Motonago Ryokan en omgeving, Kyoto"
 date: "2014-09-29"
 image: "/uploads/DSC04149.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Misschien was het bad om 7u toch te vroeg. xD Oh well, daarna werd ons super deluxe ontbijt in onze kamer...
 ---
 
 Misschien was het bad om 7u toch te vroeg. xD Oh well, daarna werd ons super deluxe ontbijt in onze kamer geserveerd.

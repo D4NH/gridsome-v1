@@ -1,8 +1,26 @@
 <template>
   <Layout>
-    <h1 class="my-4 mb-5">Blog</h1>
+    <div class="greeting">
+      <img class="greet-image" src="https://www.danhnguyen.nl/wp-content/uploads/2H0QPGDVGZ.jpg" alt="Foto van blog" />
+      <img class="avatar" src="https://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg" alt="Foto van Danh Nguyen"/>
+    </div>
 
-    {{$page.tags}}
+    <div class="intro text-center">
+      <h2 class="mb-3">Blog</h2>
+      <ul class="additional list-inline">
+        <li class="list-inline-item">
+          <font-awesome class="mr-1" :icon="['fas', 'envelope-open-text']" />
+          nguyen.dtd@gmail.com
+        </li>
+        <li class="list-inline-item ml-3">
+          <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
+          Nederland
+        </li>
+      </ul>
+      <p>Waar gaan we dit keer naartoe?</p>
+    </div>
+
+    <hr class="my-5">
 
     <div
       class="panel row mb-5"
@@ -26,7 +44,7 @@
 
         <small>{{item.node.excerpt}}</small>
 
-        <p class="category mt-3">{{item.node.category || 'Travel'}}</p>
+        <p class="category mt-3">{{item.node.category}}</p>
 
         <div class="author-date mt-3">
           Door Danh Nguyen

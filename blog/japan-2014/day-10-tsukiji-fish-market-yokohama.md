@@ -3,6 +3,7 @@ title: "Day 10 - Tsukiji Fish Market & Yokohama"
 date: "2014-09-24"
 image: "/uploads/DSC03822.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: Na ongeveer anderhalve week kwamen we erachter dat er een mega winkel centrum onder het station lag. Super lekker...
 ---
 
 Na ongeveer anderhalve week kwamen we erachter dat er een mega winkel centrum onder het station lag. Super lekker eten daar, waaronder veel verse vis.

@@ -1,8 +1,9 @@
 ---
 title: "Day 11 - Sunshine City, Ikebukuro"
-date: "2014-09-27"
+date: "2014-09-25"
 image: "/uploads/DSC03933.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
+excerpt: We wisten al langer dat Sunshine shitty err city in Ikebukuro was, maar nog niet echt heen geweest. Tot onze...
 ---
 
 We wisten al langer dat Sunshine shitty err city in Ikebukuro was, maar nog niet echt heen geweest. Tot onze verbazing zitten hier vet veel shops, restaurants en theme parks in. Even langs geweest om, nou ja.. te eten en rond te kijken. xD

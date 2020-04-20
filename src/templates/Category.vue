@@ -1,12 +1,12 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="greeting">
-      <g-image immediate :src="$page.category.belongsTo.edges[0].node.image" class="greet-image" alt="image" />
+      <g-image immediate :src="$page.category.belongsTo.edges[Math.floor(Math.random() * $page.category.belongsTo.edges.length)].node.image" class="greet-image" alt="image" />
       <img class="avatar" src="https://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg" alt="Foto van Danh Nguyen"/>
     </div>
 
     <div class="intro text-center">
-      <h2 class="mb-3">{{ $page.category.title }}</h2>
+      <h2 class="mb-3">{{ $page.category.title.split('-')[0] }}</h2>
 
       <ul class="additional list-inline">
         <li class="list-inline-item">
@@ -18,6 +18,8 @@
           {{ $page.category.title.split('-')[1] }}
         </li>
       </ul>
+
+      <p>{{ $page.category.belongsTo.edges.filter(item => item.node.info)[0].node.info }}</p>
     </div>
 
     <hr class="my-5">
@@ -59,29 +61,24 @@
       </div>
     </div>
 
-    <Pager :info="$page.category.belongsTo.pageInfo"/>
-
   </Layout>
 </template>
 
 <page-query>
-  query($id: ID!, $page: Int) {
+  query($id: ID!) {
     category(id: $id) {
       title
       path
-      belongsTo(sortBy: "date", perPage: 10, page: $page) @paginate {
-        pageInfo {
-          totalPages
-          currentPage
-        }
+      belongsTo(sortBy: "date") {
         edges {
           node {
             ... on BlogPost {
               title
               excerpt
-              image (width:800)
+              image (width: 800)
               path
               date
+              info
               category {
                 id
                 title
@@ -95,12 +92,7 @@
 </page-query>
 
 <script>
-import { Pager } from 'gridsome';
-
 export default {
-  components: {
-    Pager
-  },
   metaInfo() {
     return {
       title: this.$page.category.title
@@ -108,3 +100,9 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.greet-image {
+  object-position: center;
+}
+</style>

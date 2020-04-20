@@ -22,39 +22,31 @@
 
     <hr class="my-5">
 
-    <div
-      class="panel row mb-5"
-      v-for="item in $page.posts.edges"
-      :key="item.node.id">
-      <div class="panel__img col-sm-4">
-        <g-link
-          :to="item.node.path"
-          class="blog-post"
-        >
-          <g-image immediate :src="item.node.image" class="img-fluid" alt="image" />
-        </g-link>
+    <div class="row">
+      <div
+        class="mb-5 col-sm-6"
+        v-for="category in $page.categories.edges"
+        :key="category.node.id">
+
+          <g-link
+            :to="category.node.path"
+            class="blog-post"
+          >
+            <g-image immediate :src="category.node.belongsTo.edges[0].node.image" class="img-fluid mb-3" alt="image" />
+            <h5>{{category.node.title}}</h5>
+          </g-link>
+
+          <small>{{ category.node.belongsTo.edges.filter(post => post.node.info)[0].node.info }}</small>
+
+          <div class="author-date mt-3">
+            Door Danh Nguyen
+            <span class="line"></span>
+            <i class="fa fa-clock-o" aria-hidden="true"></i> {{ category.node.belongsTo.edges.filter(post => post.node.date)[0].node.date }}
+          </div>
       </div>
-      <div class="panel__content panel__content--no-padding col-sm-6">
-        <g-link
-          :to="item.node.path"
-          class="blog-post"
-        >
-          <h5 class="subtitle ellipsis">{{item.node.title}}</h5>
-        </g-link>
 
-        <small>{{item.node.excerpt}}</small>
-
-        <p class="category mt-3">{{item.node.category}}</p>
-
-        <div class="author-date mt-3">
-          Door Danh Nguyen
-          <span class="line"></span>
-          <i class="fa fa-clock-o" aria-hidden="true"></i> {{item.node.date}}
-        </div>
-      </div>
     </div>
-
-    <Pager :info="$page.posts.pageInfo"/>
+    <!-- <Pager :info="$page.posts.pageInfo"/> -->
 
     <!-- <div class="media my-5">
       <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
@@ -78,7 +70,7 @@ export default {
 
 <page-query>
 query ($page: Int) {
-  posts: allBlogPost(sortBy: "date", perPage: 10, page: $page) @paginate {
+  categories: allCategory(sortBy: "date", perPage: 10, page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -87,10 +79,19 @@ query ($page: Int) {
       node {
         id
         path
-        date
         title
-        excerpt
-        image
+        belongsTo {
+          edges {
+            node {
+              ... on BlogPost {
+                id
+                image (width: 500)
+                info
+                date
+              }
+            }
+          }
+        }
       }
     }
   }

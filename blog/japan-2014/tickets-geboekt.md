@@ -4,6 +4,7 @@ date: "2014-03-14"
 image: "/uploads/o-AIRLINE-TICKETS-facebook.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
 excerpt: Na lang zoeken en vergelijken, hebben we de tickets naar Japan geboekt. We gaan landen op Haneda Airport, vanaf daar nemen we de Tokyo...
+info: Het was altijd al een droom geweest om naar Japan te gaan. Een klasgenoot die ik heb ontmoet in mijn eerste jaar van de HBO opleiding hebben elkaar beloofd als we waren afgestudeerd, samen naar Japan te gaan. In september 2014 zijn we naar ‘the land of the rising sun’ gereisd!
 ---
 
 Na lang zoeken en vergelijken, hebben we de tickets naar Japan geboekt. We gaan landen op Haneda Airport, vanaf daar nemen we de [Tokyo Airporter](http://www.tokyoairporter.com/) naar ons appartement. We hebben een appartement genomen met als reden om zo dan ook de Japanse leefgewoonte te ervaren. Het boeken van dit appartement is gedaan via [www.airbnb.com](http://www.airbnb.com). Een website waar mensen in het buitenland hun appartement verhuren voor schappelijke prijzen.

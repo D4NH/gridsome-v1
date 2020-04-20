@@ -24,60 +24,89 @@
 
     <hr class="my-5">
 
-
-    <div>
-      <img class="contact-image mb-4" src="../../uploads/email.svg" />
-      <b-form
-        name="contact"
-        method="post"
-        @submit.prevent="handleSubmit"
-        action="/success/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-      <input type="hidden" name="name" value="contact" />
-      <p hidden>
-        <label>
-          Don’t fill this out: <input name="bot-field" />
-        </label>
-      </p>
-        <b-form-group id="input-group-2" label="Name:" label-for="form-name">
-          <b-form-input
-            id="name"
-            name="name"
-            v-model="form.name"
-            required
-            placeholder="Enter name"
-          />
-        </b-form-group>
-
-        <b-form-group
-          id="input-group-1"
-          label="Email:"
-          label-for="email"
-        >
-          <b-form-input
-            id="email"
-            v-model="form.email"
-            name="email"
-            type="email"
-            required
-            placeholder="Enter email"
-          />
-        </b-form-group>
-
-        <b-form-group id="input-group-3" label="Message:" label-for="message">
-          <b-form-textarea
-            id="message"
-            name="message"
-            v-model="form.message"
-            required
-            placeholder="Enter message"
-          />
-        </b-form-group>
-
-        <b-button type="submit" variant="primary">Submit</b-button>
-      </b-form>
+    <div class="row mb-5">
+      <div class="col-sm-6">
+        <!-- <a href="/categories/japan"> -->
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/mijnoverheid.jpg" alt="Afbeelding van Logius" class="mb-2 img-fluid">
+          <br/>
+          MijnOverheid - Logius
+        <!-- </a> -->
+        <br/>
+        <small>Vue</small>
+      </div>
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/monuta.jpg" alt="Afbeelding van Monuta" class="mb-2 img-fluid">
+          <br/>
+          Monuta Verzekeringsmodule - Monuta
+        <br/>
+        <small>Angular</small>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-sm-6">
+        <!-- <a href="/categories/japan"> -->
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/luminisamsterdam.jpg" alt="Afbeelding van Luminis" class="mb-2 img-fluid">
+          <br/>
+          Luminis Amsterdam - Luminis
+        <!-- </a> -->
+        <br/>
+        <small>Wordpress</small>
+      </div>
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/devcon.jpg" alt="Afbeelding van Luminis" class="mb-2 img-fluid">
+          <br/>
+          Luminis DevCon - Luminis
+        <br/>
+        <small>Wordpress</small>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/proudteachers.jpg" alt="Afbeelding van Luminis" class="mb-2 img-fluid">
+          <br/>
+          Proud Teachers - Luminis
+        <br/>
+        <small>Wordpress</small>
+      </div>
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/training.jpg" alt="Afbeelding van Luminis" class="mb-2 img-fluid">
+          <br/>
+          Luminis Academy - Luminis
+        <br/>
+        <small>Wordpress</small>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/bespaarcoach.jpg" alt="Afbeelding van Essent" class="mb-2 img-fluid">
+          <br/>
+          Bespaarcoach - Essent
+        <br/>
+        <small>Javascript</small>
+      </div>
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/essentmobiel.jpg" alt="Afbeelding van Essent" class="mb-2 img-fluid">
+          <br/>
+          Mobiele site - Essent
+        <br/>
+        <small>Mobile First</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/bespaartips.jpg" alt="Afbeelding van Essent" class="mb-2 img-fluid">
+          <br/>
+          Bespaartips - Essent
+        <br/>
+        <small>Javascript</small>
+      </div>
+      <div class="col-sm-6">
+          <img src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/philipskitchen.jpg" alt="Afbeelding van Philips" class="mb-2 img-fluid">
+          <br/>
+          MyKitchen - Philips
+        <br/>
+        <small>Javascript, ATG CMS</small>
+      </div>
     </div>
   </Layout>
 </template>
@@ -92,27 +121,8 @@
         form: {
           name: '',
           email: '',
-          message: '',
-        },
-      }
-    },
-    methods: {
-      encode(data) {
-        return Object.keys(data)
-          .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-          .join('&')
-      },
-      handleSubmit(e) {
-        fetch('/', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: this.encode({
-            'form-name': e.target.getAttribute('name'),
-            ...this.form,
-          }),
-        })
-        .then(() => this.$router.push('/success'))
-        .catch(error => alert(error))
+          message: ''
+        }
       }
     }
   }

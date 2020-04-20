@@ -2,7 +2,7 @@
 title: "Day 8 - Ikebukuro & Akihabara, Tokyo, Japan"
 date: "2014-09-23"
 image: "/uploads/DSC03662.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 ---
 
 Niet veel gedaan. Paar dingen gekocht, in een arcade hall gezeten. Lekker gamen, lekker eten. The good life xD

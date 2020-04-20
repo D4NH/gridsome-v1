@@ -1,7 +1,7 @@
 ---
 title: "Tickets geboekt!"
 date: "2015-04-28"
-image: "https://www.danhnguyen.nl/wp-content/uploads/image53.jpg"
+image: "/uploads/Screen-Shot-2015-10-09-at-10.52.13.png"
 category: Jakarta, Yogjakarta, Bali - Indonesie
 excerpt: Tickets zijn geboekt nu nog de dagen aftellen voordat we kunnen gaan. Oh ja, ook nog inpakken...
 ---

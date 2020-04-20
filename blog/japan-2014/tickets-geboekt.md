@@ -2,7 +2,7 @@
 title: "Tickets geboekt, Tokyo Japan!"
 date: "2014-03-14"
 image: "/uploads/o-AIRLINE-TICKETS-facebook.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 excerpt: Na lang zoeken en vergelijken, hebben we de tickets naar Japan geboekt. We gaan landen op Haneda Airport, vanaf daar nemen we de Tokyo...
 ---
 

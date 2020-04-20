@@ -3,7 +3,7 @@ title: "Day 1 - Ikebukuro"
 date: "2014-09-15"
 image: "/uploads/DSC02921.jpg"
 author: Danh Nguyen
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 excerpt: Erm.. moe, dat waren we ook. We werden dan ook pas om half 2 's middags wakker. Time to stroll around Ikebukuro! First thing to do...
 ---
 

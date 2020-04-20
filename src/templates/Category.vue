@@ -10,12 +10,12 @@
 
       <ul class="additional list-inline">
         <li class="list-inline-item">
-          <font-awesome class="mr-1" :icon="['fas', 'birthday-cake']" />
+          <font-awesome class="mr-1" :icon="['fas', 'calendar-day']" />
           {{ $page.category.belongsTo.edges[0].node.date }}
         </li>
         <li class="list-inline-item ml-3">
           <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
-          Japan
+          {{ $page.category.title.split('-')[1] }}
         </li>
       </ul>
     </div>

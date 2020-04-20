@@ -2,7 +2,7 @@
 title: "Tokyo International Airport, Haneda"
 date: "2014-09-14"
 image: "/uploads/Emirates_b777-300er_a6-ebm_arp-1.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 excerpt: De vlucht van Nederland naar Japan ging vrijwel probleemloos, totdat ik op Schiphol werd aangehouden vanwege mijn achternaam. Ik dacht echt...
 ---
 

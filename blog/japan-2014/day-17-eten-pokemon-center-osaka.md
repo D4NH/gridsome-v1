@@ -2,7 +2,7 @@
 title: "Day 17 - Eten & Pokemon Center, Osaka"
 date: "2014-10-01"
 image: "/uploads/DSC04381.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 ---
 
 Yep, de Shinkansen is snel. Gelukkig konden we gebruik maken van onze JR-pass. Na 15 minuten stonden we op Osaka station. Huge as fack!

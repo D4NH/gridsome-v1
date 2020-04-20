@@ -2,7 +2,7 @@
 title: "Day 14 - Motonago Ryokan, Kyoto"
 date: "2014-09-28"
 image: "/uploads/DSC04103.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 ---
 
 Vandaag veilig aangekomen met de Shinkansen in Kyoto. Daarna een 'leuke' read the sarcasm wandeling door de brandende zon van station naar onze Ryokan. Ja we konden de taxi nemen, maar even wandelen kon geen kwaad dachten we. Zwetend komen we aan, maar damn wat gaf de omgeving een rustige sfeer met zich mee! Dat maakte weer alles goed. xD

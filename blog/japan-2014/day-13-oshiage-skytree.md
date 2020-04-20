@@ -2,7 +2,7 @@
 title: "Day 13 - Oshiage, Skytree"
 date: "2014-09-27"
 image: "/uploads/DSC04006.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 ---
 
 Onze laatste dag in Tokyo. Morgen gaan we richting Kyoto! Vandaag dus even de laatste souvenir shopping gedaan en de super hoge Skytree Tower kunnen bekijken. Rondom de Skytree vind je een heleboel shops, waar leuke en ook rare dingen voorkomen.

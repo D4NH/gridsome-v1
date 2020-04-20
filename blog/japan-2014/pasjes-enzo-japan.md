@@ -2,7 +2,7 @@
 title: "Pasjes, tickets, kaarten enz.."
 date: "2014-07-03"
 image: "/uploads/jrp.jpg"
-category: Tokyo, Kyoto, Osaka – Japan
+category: Tokyo, Kyoto, Osaka - Japan
 excerpt: Onze JR Passes zijn ook binnen! Met de JR Pass kun je gebruik maken van verschillende treinen binnen in Japan. We hebben deze vooral...
 ---
 

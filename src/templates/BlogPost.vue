@@ -1,9 +1,33 @@
 <template>
   <Layout>
-    <g-image immediate class="blogImage mb-4" :src="$page.post.image" />
+    <div class="greeting">
+      <g-image immediate :src="$page.post.image.src" class="greet-image" alt="image" />
+      <img class="avatar" src="https://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg" alt="Foto van Danh Nguyen"/>
+    </div>
+
+    <div class="intro text-center">
+      <h2 class="mb-3">{{ $page.post.title }}</h2>
+
+      <ul class="additional list-inline">
+        <li class="list-inline-item">
+          <font-awesome class="mr-1" :icon="['fas', 'calendar-day']" />
+          {{ $page.post.date }}
+        </li>
+        <li class="list-inline-item ml-3">
+          <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
+          {{ $page.post.title.split('-')[1] }}
+        </li>
+      </ul>
+
+      <!-- <p>{{ $page.category.belongsTo.edges.filter(item => item.node.info)[0].node.info }}</p> -->
+    </div>
+
+    <hr class="my-5">
+
+
+    <!-- <g-image immediate class="blogImage mb-4" :src="$page.post.image" /> -->
     <div class="blogPost">
-      <h1 v-html="$page.post.title" class="mb-4"/>
-      <div class="meta">
+      <!-- <div class="meta">
         <div class="box author">
           <span class="label">Author</span>
           <span class="author-name" v-text="$page.post.author"/>
@@ -16,7 +40,7 @@
           <span class="label">Time</span>
           <span>{{ $page.post.timeToRead }} min read</span>
         </div>
-      </div>
+      </div> -->
       <BlogContent class="mt-5" :content="$page.post.content"/>
     </div>
   </Layout>

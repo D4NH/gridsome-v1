@@ -33,7 +33,7 @@
           :to="item.node.path"
           class="blog-post"
         >
-          <g-image immediate :src="item.node.image" class="post-image" alt="image" />
+          <g-image immediate :src="item.node.image ? item.node.image : '/uploads/404.svg'" class="post-image" alt="image" />
         </g-link>
       </div>
       <div class="panel__content panel__content--no-padding col-sm-6">
@@ -69,7 +69,7 @@
     category(id: $id) {
       title
       path
-      belongsTo(sortBy: "date") {
+      belongsTo(sortBy: "date", order: ASC) {
         edges {
           node {
             ... on BlogPost {

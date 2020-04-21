@@ -102,7 +102,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.greet-image {
-  object-position: center;
-}
 </style>

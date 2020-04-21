@@ -27,12 +27,11 @@
         class="mb-5 col-sm-6"
         v-for="category in $page.categories.edges"
         :key="category.node.id">
-
           <g-link
             :to="category.node.path"
             class="blog-post"
           >
-            <g-image immediate :src="category.node.belongsTo.edges[0].node.image" class="img-fluid mb-3" alt="image" />
+            <g-image immediate :src="category.node.belongsTo.edges[Math.floor(Math.random() * category.node.belongsTo.edges.length)].node.image" class="post-image mb-3" alt="image" />
             <h5>{{category.node.title}}</h5>
           </g-link>
 
@@ -59,22 +58,11 @@
 </template>
 
 <script>
-import { Pager } from 'gridsome';
-
-export default {
-  components: {
-    Pager
-  }
-}
 </script>
 
 <page-query>
-query ($page: Int) {
-  categories: allCategory(sortBy: "date", perPage: 10, page: $page) @paginate {
-    pageInfo {
-      totalPages
-      currentPage
-    }
+query {
+  categories: allCategory {
     edges {
       node {
         id
@@ -133,5 +121,9 @@ query ($page: Int) {
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.post-image {
+  height: 200px;
 }
 </style>

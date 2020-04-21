@@ -28,7 +28,6 @@
 
     <hr class="my-5">
 
-    <h3 class="mt-5 mb-4">Laatste trips</h3>
     <div
       class="panel row mb-5"
       v-for="item in $page.posts.edges"
@@ -66,12 +65,6 @@
       </div>
     </div>
 
-    <h3 class="mt-5 mb-4">Laatste projecten</h3>
-    <p>The easiest way to get started quick is to use the Forestry button below, which will create a Github repository for you,
-      clone this starter repo and import all data to the CMS. After that is complete, you can just go to <a href="https://www.netlify.com/">Netlify</a>
-      and connect your newly created project that will set it up for automatic deployment when you commit to the Github repo.
-    </p>
-
   </Layout>
 </template>
 
@@ -85,7 +78,7 @@ export default {
 
 <page-query>
 query {
-  posts: allBlogPost(limit: 3, order: DESC) {
+  posts: allBlogPost(limit: 5, order: DESC) {
     edges {
       node {
         title

@@ -1,5 +1,5 @@
-module.exports = function (api) {
+module.exports = function(api) {
     api.loadSource(actions => {
-        actions.addCollection('BlogPost')
+        actions.addCollection('BlogPost');
     });
-}
+};

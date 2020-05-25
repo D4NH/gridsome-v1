@@ -27,11 +27,17 @@ h4, h5, h6 { font-size: 1.15rem; }
     margin: 15px auto;
   }
 
-  .g-image {
+  img, .g-image {
     width: 700px;
     height: 500px;
     object-fit: cover;
     margin: 15px auto 0;
+  }
+
+  @media screen and (max-width: 640px) {
+    p, img, .g-image {
+      width: 100%;
+    }
   }
 }
 </style>

@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'Danh Nguyen',
-  siteDescription: 'A starter project for Gridsome with Bootstrap and some other useful tools.',
-  siteUrl: 'https://gridsome-starter-bootstrap.loke.dev',
+  siteDescription: 'Welkom op mijn portfolio! Je vindt hier mijn uitgevoerde projecten, informatie over mijzelf en mijn hobbies waaronder reizen.',
+  siteUrl: 'https://d4nh.github.io',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -32,7 +32,8 @@ module.exports = {
       options: {
         cacheTime: 600000
       }
-    }
+    },
+    { use: 'gridsome-plugin-keep-processed-images' }
   ],
   templates: {
     Category: [{

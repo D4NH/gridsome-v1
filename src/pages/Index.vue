@@ -81,7 +81,7 @@ query {
       node {
         title
         date
-        image (width: 300, quality: 60)
+        image
         path
         excerpt
         category {

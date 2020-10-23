@@ -73,7 +73,7 @@ query {
             node {
               ... on BlogPost {
                 id
-                image (width: 500)
+                image
                 info
                 date
               }

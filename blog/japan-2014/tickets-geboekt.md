@@ -1,7 +1,7 @@
 ---
 title: "Tickets geboekt, Tokyo Japan!"
 date: "2014-03-14"
-image: "/uploads/o-AIRLINE-TICKETS-facebook.jpg"
+image: "https://www.danhnguyen.nl/wp-content/uploads/o-AIRLINE-TICKETS-facebook.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
 excerpt: Na lang zoeken en vergelijken, hebben we de tickets naar Japan geboekt. We gaan landen op Haneda Airport, vanaf daar nemen we de Tokyo...
 info: Het was altijd al een droom geweest om naar Japan te gaan. Een klasgenoot die ik heb ontmoet in mijn eerste jaar van de HBO opleiding hebben elkaar beloofd als we waren afgestudeerd, samen naar Japan te gaan. In september 2014 zijn we naar ‘the land of the rising sun’ gereisd!
@@ -11,7 +11,7 @@ Na lang zoeken en vergelijken, hebben we de tickets naar Japan geboekt. We gaan 
 
 Wat we denken te gaan spenderen vind je in afbeelding hieronder. Het is allemaal een schatting, maar zo krijg je in iedergeval een beeld van wat je ongeveer kwijt bent.
 
-![](/uploads/Screen-Shot-2014-07-16-at-10.42.17.jpg)
+![](https://www.danhnguyen.nl/wp-content/uploads//Screen-Shot-2014-07-16-at-10.42.17.jpg)
 
 Het is nog steeds moeilijk om te zoeken waar je nu precies wilt zitten in een land waar je nog nooit bent geweest. Tokyo hebben we bijna helemaal uitgezocht waar we allemaal heen gaan. Sightseeing is mooi meegenomen, maar foooooood is nog belangrijker of niet [Powen](https://www.facebook.com/powen.tang)? xD Voor Tokyo hebben we veel tips van [Reddit](http://www.reddit.com/r/japantravel) en [Japan Guide](http://www.japan-guide.com/e/e2164.html) kunnen krijgen.
 

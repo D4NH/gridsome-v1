@@ -1,7 +1,7 @@
 ---
 title: "Dag 8 - Jagalchi Market, Gamcheon Culture Village, Dadaepo Beach - Busan"
 date: "2017-08-03"
-image: "/uploads/681B3AAC-E19E-4334-BF08-B076C4481015.jpg"
+image: "https://www.danhnguyen.nl/wp-content/uploads/681B3AAC-E19E-4334-BF08-B076C4481015.jpg"
 category: Seoul, Jeju Island - Zuid Korea
 excerpt: Te beginnen met het uitzicht vanuit ons hotel...
 ---

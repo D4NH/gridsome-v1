@@ -1,7 +1,7 @@
 ---
 title: "Dag 3 - Grindelwald, Mannlichen"
 date: "2017-02-26"
-image: "/uploads/DSC01311.jpg"
+image: "https://www.danhnguyen.nl/wp-content/uploads/DSC01311.jpg"
 category: Interrail - Europa
 excerpt: Goodmorning allemaaaaaal, na een 'redelijk' ontbijt met de bus in richting Interlaken Ost...
 ---

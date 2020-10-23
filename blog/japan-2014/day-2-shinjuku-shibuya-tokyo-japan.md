@@ -1,42 +1,42 @@
 ---
 title: "Day 2 - Shinjuku & Shibuya"
 date: "2014-09-16"
-image: "/uploads/DSC02980.jpg"
+image: "https://www.danhnguyen.nl/wp-content/uploads/DSC02980.jpg"
 category: Tokyo, Kyoto, Osaka - Japan
 excerpt: Vandaag wel op tijd wakker, maar eerlijk gezegd nog steeds moe. Gisteren was het helaas half 5 voordat we in slaap vielen...
 ---
 
 Vandaag wel op tijd wakker, maar eerlijk gezegd nog steeds moe. Gisteren was het helaas half 5 voordat we in slaap vielen.
 
-![DSC02981](/uploads/DSC02981-575x1024.jpg)
+![DSC02981](https://www.danhnguyen.nl/wp-content/uploads//DSC02981-575x1024.jpg)
 
 In Shinjuku vind je bizar veel hoge gebouwen en shops. Oh ja en omg, we stonden in een winkel en ineens een dikke aardbeving! Iedereen om ons heen deed gewoon alsof het de normaalste zaak was. xD
 
-![DSC02982](/uploads/DSC02982-1024x575.jpg)
+![DSC02982](https://www.danhnguyen.nl/wp-content/uploads//DSC02982-1024x575.jpg)
 
 Deze konden we niet overslaan. Even lekker gamen.
 
-![](/uploads/DSC030131-1024x575.jpg)
+![](https://www.danhnguyen.nl/wp-content/uploads//DSC030131-1024x575.jpg)
 
 ¥600 uitgegeven en deze gewonnen :P
 
-![DSC02999](/uploads/DSC02999-1024x575.jpg)
+![DSC02999](https://www.danhnguyen.nl/wp-content/uploads//DSC02999-1024x575.jpg)
 
 Cool bags tho!
 
-![DSC02984](/uploads/DSC02984-1024x575.jpg)
+![DSC02984](https://www.danhnguyen.nl/wp-content/uploads//DSC02984-1024x575.jpg)
 
 Shibuya Crossing, te lui om een hoog punt te zoeken en vanaf daar te schieten. xD
 
-![DSC02990](/uploads/DSC02990-1024x575.jpg)
+![DSC02990](https://www.danhnguyen.nl/wp-content/uploads//DSC02990-1024x575.jpg)
 
 Shibuya 109!
 
-![DSC03005](/uploads/DSC03005-575x1024.jpg)
+![DSC03005](https://www.danhnguyen.nl/wp-content/uploads//DSC03005-575x1024.jpg)
 
 Tokyu Hands, een bizar groot gebouw met allerlei huishoud en hobby spullen. Leuke stickers op de trap tho, laat precies zien hoeveel kcal je kwijt bent.
 
-![DSC03007](/uploads/DSC03007-1024x575.jpg)
+![DSC03007](https://www.danhnguyen.nl/wp-content/uploads//DSC03007-1024x575.jpg)
 
 Hier nog een avond shot van Shibuya.
 
@@ -44,10 +44,10 @@ Hier nog een avond shot van Shibuya.
 
 Filmpje van Shibuya Crossing, busy right? xD
 
-![DSC02964](/uploads/DSC02964-1024x575.jpg)
+![DSC02964](https://www.danhnguyen.nl/wp-content/uploads//DSC02964-1024x575.jpg)
 
 Voor de verandering maar eens lekker op tijd naar huis. We hadden geen energie meer. Oh ja.. het was druk. Maar volgens mij nog niet zo druk als de echte rush hour.
 
-![DSC03008](/uploads/DSC03008-1024x575.jpg)
+![DSC03008](https://www.danhnguyen.nl/wp-content/uploads//DSC03008-1024x575.jpg)
 
 En station Ikebukuro waar we daarna maar eens lekker in ons appartement zijn gaan chillen. Nu maar eens op tijd naar bed. Hoop ik.. xD

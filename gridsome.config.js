@@ -3,7 +3,6 @@ module.exports = {
     siteDescription:
         'Welkom op mijn portfolio! Je vindt hier mijn uitgevoerde projecten, informatie over mijzelf en mijn hobbies waaronder reizen.',
     siteUrl: 'https://d4nh.github.io',
-    pathPrefix: '/d4nh.github.io',
     plugins: [
         {
             use: '@gridsome/source-filesystem',

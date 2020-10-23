@@ -21,9 +21,9 @@
                 </li>
             </ul>
             <p>
-                Mijn naam is Danh (Jan) Nguyen. Geboren op 27-02-1987 te Venlo. Wonend in Capelle a/d IJssel, dat ligt
-                naast Rotterdam. Ik hou van de laatste gadgets en wil ze dan ook graag altijd hebben uitproberen. In
-                mijn vrijetijd speel ik badminton, games op de PlayStation en lees ik Japanse Manga’s.
+                Mijn naam is Danh (Jan) Nguyen. Geboren op 27-02-1987 te Venlo. Wonend in Capelle a/d IJssel. Ik hou van
+                de laatste gadgets en wil ze dan ook graag altijd <strike>hebben</strike> uitproberen. In mijn vrijetijd
+                speel ik badminton, games op de PlayStation en lees ik Japanse Manga’s.
             </p>
         </div>
 

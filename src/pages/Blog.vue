@@ -1,11 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <g-image
-                class="greet-image"
-                src="https://www.danhnguyen.nl/wp-content/uploads/2H0QPGDVGZ.jpg"
-                alt="Foto van blog"
-            />
+            <g-image class="greet-image" src="https://www.danhnguyen.nl/wp-content/uploads/2H0QPGDVGZ.jpg" />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 
@@ -29,7 +25,7 @@
         <div class="row">
             <div class="mb-5 col-sm-6" v-for="category in $page.categories.edges" :key="category.node.id">
                 <g-link :to="category.node.path" class="blog-post">
-                    <g-image :src="categoryImage(category)" class="post-image mb-3" alt="image" />
+                    <g-image blur :src="categoryImage(category)" class="post-image mb-3" />
                     <h5>{{ category.node.title }}</h5>
                 </g-link>
 

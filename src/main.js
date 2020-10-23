@@ -1,5 +1,4 @@
 import DefaultLayout from '~/layouts/Default.vue';
-
 import BootstrapVue from 'bootstrap-vue';
 import './assets/styles/main.scss';
 
@@ -12,14 +11,14 @@ import {
     faMapMarkerAlt,
     faEnvelopeOpenText,
     faCalendarDay,
-    faBars
+    faBars,
 } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
 library.add(faBirthdayCake, faMapMarkerAlt, faEnvelopeOpenText, faCalendarDay, faBars);
 
-export default function(Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient }) {
     Vue.use(BootstrapVue);
     Vue.component('Layout', DefaultLayout);
     Vue.component('font-awesome', FontAwesomeIcon);

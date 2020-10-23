@@ -2,9 +2,8 @@
     <Layout>
         <div class="greeting">
             <g-image
-                :src="$page.post.image ? $page.post.image : 'https://placehold.co/460x200?text=404'"
                 class="greet-image"
-                alt="image"
+                :src="$page.post.image ? $page.post.image : 'https://placehold.co/460x200?text=404'"
             />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
@@ -19,11 +18,11 @@
                 </li>
                 <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
-                    <!-- {{ $page.post.category.title ? $page.post.category.title.split('-')[1] : '-' }} -->
+                    {{ $page.post.category.title ? $page.post.category.title.split('-')[1] : '-' }}
                 </li>
             </ul>
 
-            <!-- <p>{{ $page.category.belongsTo.edges.filter(item => item.node.info)[0].node.info }}</p> -->
+            <!-- <p>{{ $page.category.belongsTo.edges.filter((item) => item.node.info)[0].node.info }}</p> -->
         </div>
 
         <hr class="my-5" />

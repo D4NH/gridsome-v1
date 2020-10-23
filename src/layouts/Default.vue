@@ -62,12 +62,14 @@ body {
     left: 50%;
     transform: translateX(-50%);
     margin-top: -50px;
+    z-index: 1;
 }
 
 .greet-image {
+    overflow: hidden;
     display: block;
     object-fit: cover;
-    height: 250px;
+    height: 250px !important;
     width: 100%;
 }
 
@@ -128,5 +130,10 @@ body {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
 }
 </style>

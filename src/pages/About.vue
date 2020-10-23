@@ -4,7 +4,6 @@
             <g-image
                 class="greet-image"
                 src="https://www.danhnguyen.nl/wp-content/uploads/LNYEQYRA6G-e1449663799614.jpg"
-                alt="Foto van boek"
             />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>

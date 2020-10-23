@@ -12,12 +12,13 @@
     "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.5.0",
+    "@noxify/gridsome-plugin-remark-image-download": "git+https://github.com/noxify/gridsome-plugin-remark-image-download.git",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
     "gh-pages": "^2.2.0",
     "gridsome": "^0.7.14",
-    "node-sass": "^4.13.1",
     "gridsome-plugin-keep-processed-images": "github:dominiquedutra/gridsome-plugin-keep-processed-images",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.0.0"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 <template>
     <Layout :hideHeader="true" :disableScroll="true">
         <div class="greeting">
-            <g-image :src="categoryImage($page.category)" class="greet-image" alt="image" />
+            <g-image class="greet-image" :src="categoryImage($page.category)" />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 
@@ -27,11 +27,7 @@
         <div class="panel row mb-5" v-for="item in $page.category.belongsTo.edges" :key="item.node.id">
             <div class="panel__img col-sm-4">
                 <g-link :to="item.node.path" class="blog-post">
-                    <g-image
-                        :src="item.node.image ? item.node.image : '/uploads/404.svg'"
-                        class="post-image"
-                        alt="image"
-                    />
+                    <g-image :src="item.node.image ? item.node.image : '/uploads/404.svg'" class="post-image" />
                 </g-link>
             </div>
             <div class="panel__content panel__content--no-padding col-sm-6">

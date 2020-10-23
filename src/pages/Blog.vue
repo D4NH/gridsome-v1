@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <img
+            <g-image
                 class="greet-image"
                 src="https://www.danhnguyen.nl/wp-content/uploads/2H0QPGDVGZ.jpg"
                 alt="Foto van blog"
@@ -29,7 +29,7 @@
         <div class="row">
             <div class="mb-5 col-sm-6" v-for="category in $page.categories.edges" :key="category.node.id">
                 <g-link :to="category.node.path" class="blog-post">
-                    <g-image immediate :src="categoryImage(category)" class="post-image mb-3" alt="image" />
+                    <g-image :src="categoryImage(category)" class="post-image mb-3" alt="image" />
                     <h5>{{ category.node.title }}</h5>
                 </g-link>
 

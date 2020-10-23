@@ -1,7 +1,7 @@
 <template>
     <Layout :hideHeader="true" :disableScroll="true">
         <div class="greeting">
-            <g-image immediate :src="categoryImage($page.category)" class="greet-image" alt="image" />
+            <g-image :src="categoryImage($page.category)" class="greet-image" alt="image" />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 
@@ -28,7 +28,6 @@
             <div class="panel__img col-sm-4">
                 <g-link :to="item.node.path" class="blog-post">
                     <g-image
-                        immediate
                         :src="item.node.image ? item.node.image : '/uploads/404.svg'"
                         class="post-image"
                         alt="image"
@@ -92,8 +91,7 @@ export default {
     },
     methods: {
         categoryImage(page) {
-            const postImage =
-                page.belongsTo.edges[Math.floor(Math.random() * page.category.belongsTo.edges.length)].node.image;
+            const postImage = page.belongsTo.edges[Math.floor(Math.random() * page.belongsTo.edges.length)].node.image;
 
             return postImage ? postImage : 'https://placehold.co/460x200?text=404';
         },

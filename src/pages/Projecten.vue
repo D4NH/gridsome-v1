@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <img
+            <g-image
                 class="greet-image"
                 src="https://www.danhnguyen.nl/wp-content/uploads/SA07EZX8KU-e1449663788877.jpg"
                 alt="Foto van laptop"
@@ -33,33 +33,29 @@
 
         <div class="row mb-5">
             <div class="col-sm-6">
-                <!-- <a href="/categories/japan"> -->
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/uploads/totaalcheck.png"
                     alt="Afbeelding van TotaalCheck - Zilveren Kruis"
                     class="mb-2 img-fluid"
                 />
                 <br />
                 TotaalCheck - Zilveren Kruis
-                <!-- </a> -->
                 <br />
                 <small>Vue</small>
             </div>
             <div class="col-sm-6">
-                <!-- <a href="/categories/japan"> -->
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/mijnoverheid.jpg"
                     alt="Afbeelding van Logius"
                     class="mb-2 img-fluid"
                 />
                 <br />
                 MijnOverheid - Logius
-                <!-- </a> -->
                 <br />
                 <small>Vue</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/monuta.jpg"
                     alt="Afbeelding van Monuta"
                     class="mb-2 img-fluid"
@@ -70,20 +66,18 @@
                 <small>Angular</small>
             </div>
             <div class="col-sm-6">
-                <!-- <a href="/categories/japan"> -->
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/luminisamsterdam.jpg"
                     alt="Afbeelding van Luminis"
                     class="mb-2 img-fluid"
                 />
                 <br />
                 Luminis Amsterdam - Luminis
-                <!-- </a> -->
                 <br />
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/devcon.jpg"
                     alt="Afbeelding van Luminis"
                     class="mb-2 img-fluid"
@@ -94,7 +88,7 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/proudteachers.jpg"
                     alt="Afbeelding van Luminis"
                     class="mb-2 img-fluid"
@@ -105,7 +99,7 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/training.jpg"
                     alt="Afbeelding van Luminis"
                     class="mb-2 img-fluid"
@@ -116,7 +110,7 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/bespaarcoach.jpg"
                     alt="Afbeelding van Essent"
                     class="mb-2 img-fluid"
@@ -127,7 +121,7 @@
                 <small>Javascript</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/essentmobiel.jpg"
                     alt="Afbeelding van Essent"
                     class="mb-2 img-fluid"
@@ -138,7 +132,7 @@
                 <small>Mobile First</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/bespaartips.jpg"
                     alt="Afbeelding van Essent"
                     class="mb-2 img-fluid"
@@ -149,7 +143,7 @@
                 <small>Javascript</small>
             </div>
             <div class="col-sm-6">
-                <img
+                <g-image
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/philipskitchen.jpg"
                     alt="Afbeelding van Philips"
                     class="mb-2 img-fluid"
@@ -167,15 +161,6 @@
 export default {
     metaInfo: {
         title: 'Projecten',
-    },
-    data() {
-        return {
-            form: {
-                name: '',
-                email: '',
-                message: '',
-            },
-        };
     },
 };
 </script>

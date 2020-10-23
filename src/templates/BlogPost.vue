@@ -2,8 +2,7 @@
     <Layout>
         <div class="greeting">
             <g-image
-                immediate
-                :src="$page.post.image.src ? $page.post.image.src : 'https://placehold.co/460x200?text=404'"
+                :src="$page.post.image ? $page.post.image : 'https://placehold.co/460x200?text=404'"
                 class="greet-image"
                 alt="image"
             />
@@ -29,22 +28,7 @@
 
         <hr class="my-5" />
 
-        <!-- <g-image immediate class="blogImage mb-4" :src="$page.post.image" /> -->
         <div class="blogPost">
-            <!-- <div class="meta">
-        <div class="box author">
-          <span class="label">Author</span>
-          <span class="author-name" v-text="$page.post.author"/>
-        </div>
-        <div class="box date">
-          <span class="label">Date</span>
-          <div v-text="new Date($page.post.date).toLocaleDateString()"/>
-        </div>
-        <div class="box time">
-          <span class="label">Time</span>
-          <span>{{ $page.post.timeToRead }} min read</span>
-        </div>
-      </div> -->
             <BlogContent class="mt-5" :content="$page.post.content ? $page.post.content : '-'" />
         </div>
     </Layout>

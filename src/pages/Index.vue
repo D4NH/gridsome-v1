@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <img
+            <g-image
                 class="greet-image"
                 src="https://www.danhnguyen.nl/wp-content/uploads/KQD17S0BRO-e1449658156704.jpg"
                 alt="Foto van boek"
@@ -39,7 +39,6 @@
             <div class="panel__img col-sm-4">
                 <g-link :to="item.node.path" class="blog-post">
                     <g-image
-                        immediate
                         :src="item.node.image ? item.node.image : 'https://placehold.co/300x170?text=404'"
                         class="post-image"
                         alt="image"

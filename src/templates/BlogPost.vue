@@ -1,25 +1,26 @@
 <template>
     <Layout>
         <div class="greeting">
-            <g-image immediate :src="$page.post.image.src" class="greet-image" alt="image" />
-            <img
-                class="avatar"
-                src="https://www.danhnguyen.nl/wp-content/uploads/DSC07798-1024x575.jpg"
-                alt="Foto van Danh Nguyen"
+            <g-image
+                immediate
+                :src="$page.post.image.src ? $page.post.image.src : 'https://placehold.co/460x200?text=404'"
+                class="greet-image"
+                alt="image"
             />
+            <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 
         <div class="intro text-center">
-            <h2 class="mb-3">{{ $page.post.title }}</h2>
+            <h2 class="mb-3">{{ $page.post.title ? $page.post.title : '-' }}</h2>
 
             <ul class="additional list-inline">
                 <li class="list-inline-item">
                     <font-awesome class="mr-1" :icon="['fas', 'calendar-day']" />
-                    {{ $page.post.date }}
+                    {{ $page.post.date ? $page.post.date : '-' }}
                 </li>
                 <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
-                    {{ $page.post.category.title.split('-')[1] }}
+                    <!-- {{ $page.post.category.title ? $page.post.category.title.split('-')[1] : '-' }} -->
                 </li>
             </ul>
 
@@ -44,7 +45,7 @@
           <span>{{ $page.post.timeToRead }} min read</span>
         </div>
       </div> -->
-            <BlogContent class="mt-5" :content="$page.post.content" />
+            <BlogContent class="mt-5" :content="$page.post.content ? $page.post.content : '-'" />
         </div>
     </Layout>
 </template>
@@ -69,13 +70,13 @@ import BlogContent from '@/components/BlogContent';
 
 export default {
     components: {
-        BlogContent
+        BlogContent,
     },
     metaInfo() {
         return {
-            title: this.$page.post.title
+            title: this.$page.post ? this.$page.post.title : '-',
         };
-    }
+    },
 };
 </script>
 

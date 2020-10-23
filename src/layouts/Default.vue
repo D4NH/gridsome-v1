@@ -15,8 +15,8 @@ import Header from '../components/Header';
 export default {
     components: {
         Footer,
-        Header
-    }
+        Header,
+    },
 };
 </script>
 

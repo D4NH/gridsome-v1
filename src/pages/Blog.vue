@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <g-image class="greet-image" src="https://www.danhnguyen.nl/wp-content/uploads/2H0QPGDVGZ.jpg" />
+            <g-image class="greet-image" src="~/assets/images/blog.jpg" />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 

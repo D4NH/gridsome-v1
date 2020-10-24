@@ -1,10 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <g-image
-                class="greet-image"
-                src="https://www.danhnguyen.nl/wp-content/uploads/LNYEQYRA6G-e1449663799614.jpg"
-            />
+            <g-image class="greet-image" src="~/assets/images/overmij.jpg" />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 

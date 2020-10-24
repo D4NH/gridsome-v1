@@ -1,10 +1,7 @@
 <template>
     <Layout>
         <div class="greeting">
-            <g-image
-                class="greet-image"
-                src="https://www.danhnguyen.nl/wp-content/uploads/SA07EZX8KU-e1449663788877.jpg"
-            />
+            <g-image class="greet-image" position="top" src="~/assets/images/projecten.jpg" />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
 
@@ -151,6 +148,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+// .greet-image {
+
+// }
+
 .contact-image {
     display: block;
     margin: auto;

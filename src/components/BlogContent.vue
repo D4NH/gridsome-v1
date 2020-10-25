@@ -38,9 +38,12 @@ h6 {
     img,
     .g-image {
         width: 700px;
-        height: 500px;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         margin: 15px auto 0;
+
+        border: 1px solid #ccc;
+        padding: 10px;
     }
 
     @media screen and (max-width: 640px) {

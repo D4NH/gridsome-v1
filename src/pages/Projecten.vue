@@ -37,7 +37,17 @@
             </div>
             <div class="col-sm-6">
                 <g-image
-                    src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/mijnoverheid.jpg"
+                    src="https://www.danhnguyen.nl/wp-content/uploads/Screenshot-2020-10-25-at-14.15.02.png"
+                    class="mb-2 img-fluid"
+                />
+                <br />
+                Nimbus Newsroom - Websight
+                <br />
+                <small>React</small>
+            </div>
+            <div class="col-sm-6">
+                <g-image
+                    src="https://www.danhnguyen.nl/wp-content/uploads/Screenshot-2020-10-25-at-14.18.31.png"
                     class="mb-2 img-fluid"
                 />
                 <br />
@@ -148,10 +158,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-// .greet-image {
-
-// }
-
 .contact-image {
     display: block;
     margin: auto;
@@ -164,6 +170,11 @@ export default {
 
     &:last-of-type {
         margin-bottom: 0;
+    }
+
+    .g-image {
+        border: 1px solid #ccc;
+        padding: 10px;
     }
 }
 </style>

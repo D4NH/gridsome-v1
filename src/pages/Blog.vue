@@ -23,9 +23,13 @@
         <hr class="my-5" />
 
         <div class="row">
-            <div class="mb-5 col-sm-6" v-for="category in $page.categories.edges" :key="category.node.id">
+            <div class="mb-5 col-sm-6" v-for="category in orderedCategories" :key="category.node.id">
                 <g-link :to="category.node.path" class="blog-post">
-                    <g-image blur :src="categoryImage(category)" class="post-image mb-3" />
+                    <v-lazy-image
+                        src-placeholder="https://dummyimage.com/242x170/e0e0e0/e0e0e0.png"
+                        :src="categoryImage(category)"
+                        class="post-image mb-3"
+                    />
                     <h5>{{ category.node.title }}</h5>
                 </g-link>
 
@@ -43,7 +47,24 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image';
+
 export default {
+    components: {
+        VLazyImage,
+    },
+    computed: {
+        orderedCategories() {
+            const categories = this.$page.categories.edges;
+            const sortedCategories = categories.sort(
+                (a, b) =>
+                    new Date(b.node.belongsTo.edges[0].node.date.split('-')) -
+                    new Date(a.node.belongsTo.edges[0].node.date.split('-'))
+            );
+
+            return sortedCategories;
+        },
+    },
     methods: {
         categoryImage(category) {
             const postImage =
@@ -83,6 +104,14 @@ query {
 </page-query>
 
 <style lang="scss" scoped>
+.v-lazy-image {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+.v-lazy-image-loaded {
+    filter: blur(0);
+}
+
 .author {
     &-date {
         font-size: 9px;

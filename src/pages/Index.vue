@@ -31,31 +31,33 @@
 
         <hr class="my-5" />
 
-        <div class="panel row mb-5" v-for="item in $page.posts.edges" :key="item.node.id">
-            <div class="panel__img col-sm-4">
-                <g-link :to="item.node.path" class="blog-post">
-                    <g-image
-                        :src="item.node.image ? item.node.image : 'https://placehold.co/300x170?text=404'"
-                        class="post-image"
-                        alt="image"
-                    />
-                </g-link>
-            </div>
-            <div class="panel__content panel__content--no-padding col-sm-6">
-                <g-link :to="item.node.path" class="blog-post">
-                    <h5 class="subtitle ellipsis">{{ item.node.title }}</h5>
-                </g-link>
+        <div class="panel row mb-5" v-for="category in orderedCategories" :key="category.node.id">
+            <div class="mx-auto col-md-10">
+                <div class="row">
+                    <div class="panel__img col-sm-4">
+                        <g-link :to="category.node.path" class="blog-post">
+                            <v-lazy-image
+                                src-placeholder="https://dummyimage.com/242x170/e0e0e0/e0e0e0.png"
+                                :src="categoryImage(category)"
+                                class="post-image"
+                                alt="image"
+                            />
+                        </g-link>
+                    </div>
+                    <div class="panel__content panel__content--no-padding col">
+                        <g-link :to="category.node.path" class="blog-post">
+                            <h5 class="subtitle ellipsis">{{ category.node.title }}</h5>
+                        </g-link>
 
-                <small>{{ item.node.excerpt }}</small>
+                        <small>{{ category.node.belongsTo.edges.filter((post) => post.node.info)[0].node.info }}</small>
 
-                <g-link :to="item.node.category.path" class="category-link">
-                    <p class="category mt-3">{{ item.node.category.title }}</p>
-                </g-link>
-
-                <div class="author-date mt-3">
-                    Door Danh Nguyen
-                    <span class="line"></span>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.node.date }}
+                        <div class="author-date mt-3">
+                            Door Danh Nguyen
+                            <span class="line"></span>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            {{ category.node.belongsTo.edges.filter((post) => post.node.date)[0].node.date }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,27 +65,58 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image';
+
 export default {
+    components: {
+        VLazyImage,
+    },
     metaInfo: {
         title: 'Danh Nguyen | Frontend Developer',
+    },
+    computed: {
+        orderedCategories() {
+            const categories = this.$page.categories.edges;
+            const sortedCategories = categories.sort(
+                (a, b) =>
+                    new Date(b.node.belongsTo.edges[0].node.date.split('-')) -
+                    new Date(a.node.belongsTo.edges[0].node.date.split('-'))
+            );
+
+            return sortedCategories.slice(0, 3);
+        },
+    },
+    methods: {
+        categoryImage(category) {
+            const postImage =
+                category.node.belongsTo.edges[Math.floor(Math.random() * category.node.belongsTo.edges.length)].node
+                    .image;
+
+            return postImage ? postImage : 'https://placehold.co/460x200?text=404';
+        },
     },
 };
 </script>
 
 <page-query>
 query {
-  posts: allBlogPost(limit: 5, order: DESC) {
+  categories: allCategory {
     edges {
       node {
-        title
-        date
-        image
+        id
         path
-        excerpt
-        category {
-          id
-          title,
-          path
+        title
+        belongsTo {
+          edges {
+            node {
+              ... on BlogPost {
+                id
+                image
+                info
+                date
+              }
+            }
+          }
         }
       }
     }
@@ -92,6 +125,14 @@ query {
 </page-query>
 
 <style lang="scss" scoped>
+.v-lazy-image {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+.v-lazy-image-loaded {
+    filter: blur(0);
+}
+
 .greet-image {
     object-position: center;
 }

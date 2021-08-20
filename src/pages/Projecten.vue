@@ -29,14 +29,19 @@
 
         <div class="row mb-5">
             <div class="col-sm-6">
-                <g-image src="https://www.danhnguyen.nl/wp-content/uploads/totaalcheck.png" class="mb-2 img-fluid" />
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
+                    src="https://www.danhnguyen.nl/wp-content/uploads/totaalcheck.png"
+                    class="mb-2 img-fluid"
+                />
                 <br />
                 TotaalCheck - Zilveren Kruis
                 <br />
                 <small>Vue</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/uploads/Screenshot-2020-10-25-at-14.15.02.png"
                     class="mb-2 img-fluid"
                 />
@@ -46,7 +51,8 @@
                 <small>React</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/uploads/Screenshot-2020-10-25-at-14.18.31.png"
                     class="mb-2 img-fluid"
                 />
@@ -56,7 +62,8 @@
                 <small>Vue</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/monuta.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -66,7 +73,8 @@
                 <small>Angular</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/luminisamsterdam.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -76,7 +84,8 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/devcon.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -86,7 +95,8 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/proudteachers.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -96,7 +106,8 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/training.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -106,7 +117,8 @@
                 <small>Wordpress</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/bespaarcoach.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -116,7 +128,8 @@
                 <small>Javascript</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/essentmobiel.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -126,7 +139,8 @@
                 <small>Mobile First</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/bespaartips.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -136,7 +150,8 @@
                 <small>Javascript</small>
             </div>
             <div class="col-sm-6">
-                <g-image
+                <v-lazy-image
+                    src-placeholder="https://dummyimage.com/460x283/e0e0e0/e0e0e0.png"
                     src="https://www.danhnguyen.nl/wp-content/themes/D4NH_V04/assets/img/webdesign/philipskitchen.jpg"
                     class="mb-2 img-fluid"
                 />
@@ -150,7 +165,12 @@
 </template>
 
 <script>
+import VLazyImage from 'v-lazy-image';
+
 export default {
+    components: {
+        VLazyImage,
+    },
     metaInfo: {
         title: 'Projecten',
     },
@@ -176,5 +196,13 @@ export default {
         border: 1px solid #ccc;
         padding: 10px;
     }
+}
+
+.v-lazy-image {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+.v-lazy-image-loaded {
+    filter: blur(0);
 }
 </style>

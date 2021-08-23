@@ -7,7 +7,6 @@
             />
             <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
         </div>
-
         <div class="intro text-center">
             <h2 class="mb-3">{{ $page.post.title ? $page.post.title : '-' }}</h2>
 
@@ -21,14 +20,33 @@
                     {{ $page.post.category.title ? $page.post.category.title.split('-')[1] : '-' }}
                 </li>
             </ul>
-
-            <!-- <p>{{ $page.category.belongsTo.edges.filter((item) => item.node.info)[0].node.info }}</p> -->
         </div>
 
         <hr class="my-5" />
 
         <div class="blogPost">
             <BlogContent class="mt-5" :content="$page.post.content ? $page.post.content : '-'" />
+        </div>
+
+        <hr class="my-5" />
+
+        <div class="row">
+            <div class="col text-right">
+                <div v-if="previousPost" class="prev">
+                    <strong>Vorige</strong><br />
+                    <a :href="previousPost.path">{{ previousPost.title }}</a
+                    ><br />
+                    <small>{{ previousPost.excerpt }}</small>
+                </div>
+            </div>
+            <div class="col">
+                <div v-if="nextPost" class="next">
+                    <strong>Volgende</strong><br />
+                    <a :href="nextPost.path">{{ nextPost.title }}</a
+                    ><br />
+                    <small>{{ nextPost.excerpt }}</small>
+                </div>
+            </div>
         </div>
     </Layout>
 </template>
@@ -40,9 +58,24 @@ query BlogPost ($path: String!) {
     author
     date
     content
+    id
+    path
     image
     category {
       title
+      id
+      belongsTo(sortBy: "date", order: ASC) {
+        edges {
+          node {
+            ... on BlogPost {
+              title
+              path
+              id
+              excerpt
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -52,6 +85,12 @@ query BlogPost ($path: String!) {
 import BlogContent from '@/components/BlogContent';
 
 export default {
+    data() {
+        return {
+            previousPost: null,
+            nextPost: null,
+        };
+    },
     components: {
         BlogContent,
     },
@@ -59,6 +98,24 @@ export default {
         return {
             title: this.$page.post ? this.$page.post.title : '-',
         };
+    },
+    watch: {
+        $route(to, from) {
+            this.setPrevNextLinks();
+        },
+    },
+    methods: {
+        setPrevNextLinks() {
+            const allBlogs = this.$page.post.category.belongsTo.edges;
+            const currentBlogPost = this.$page.post;
+            const currentBlogPostId = allBlogs.findIndex((blogPost) => blogPost.node.id === currentBlogPost.id);
+
+            this.previousPost = currentBlogPostId === 0 ? null : allBlogs[currentBlogPostId - 1].node;
+            this.nextPost = currentBlogPostId === allBlogs.length - 1 ? null : allBlogs[currentBlogPostId + 1].node;
+        },
+    },
+    mounted() {
+        this.setPrevNextLinks();
     },
 };
 </script>

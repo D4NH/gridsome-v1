@@ -118,7 +118,7 @@ God Eater 2, echt super vette hack n slash game! Hopelijk komt die uit in het we
 
 ![DSC03630](https://www.danhnguyen.nl/wp-content/uploads//DSC03630-1024x575.jpg)
 
-God Eater Mechanise.
+God Eater Merchandise.
 
 ![DSC03565](https://www.danhnguyen.nl/wp-content/uploads//DSC03565-1024x575.jpg)
 

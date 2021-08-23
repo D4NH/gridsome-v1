@@ -30,8 +30,7 @@ Even de arcade hallen in. 1 Woord, echt too awesome!!! Hier zal ik vaker te vind
 Al helemaal door Initial D, spel is gewoon super vet. Lekker driften je weeeeeeet en onze personal passes!
 
 <!-- <iframe class="aligncenter" src="//www.youtube.com/embed/dmUD5y-4oSk?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe> -->
-
-En deze chick is een beetje gek, guitar hero achtig iets op Extreme..
+<!-- En deze chick is een beetje gek, guitar hero achtig iets op Extreme.. -->
 
 ![DCIM100GOPRO](https://www.danhnguyen.nl/wp-content/uploads//G0020127-1024x768.jpg)
 

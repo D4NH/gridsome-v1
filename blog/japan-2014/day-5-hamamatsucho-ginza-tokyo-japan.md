@@ -33,8 +33,7 @@ Schildpad!
 Helemaal Zen.
 
 <!-- <iframe src="//www.youtube.com/embed/FW6uRdbkyXY?rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe> -->
-
-Hier nog een 180' view van de omgeving
+<!-- Hier nog een 180' view van de omgeving -->
 
 ![DSC03358](https://www.danhnguyen.nl/wp-content/uploads//DSC03358-1024x575.jpg)
 

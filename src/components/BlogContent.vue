@@ -42,8 +42,9 @@ h6 {
         object-fit: contain;
         margin: 15px auto 0;
 
-        border: 1px solid #ccc;
-        padding: 10px;
+        // border: 1px solid #ccc;
+        // border-radius: 0.3rem;
+        // padding: 5px;
     }
 
     @media screen and (max-width: 640px) {

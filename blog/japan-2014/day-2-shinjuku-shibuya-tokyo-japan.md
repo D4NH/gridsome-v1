@@ -18,7 +18,7 @@ Deze konden we niet overslaan. Even lekker gamen.
 
 ![](https://www.danhnguyen.nl/wp-content/uploads//DSC030131-1024x575.jpg)
 
-¥600 uitgegeven en deze gewonnen :P
+¥600 uitgegeven... maar deze gewonnen :P
 
 ![DSC02999](https://www.danhnguyen.nl/wp-content/uploads//DSC02999-1024x575.jpg)
 
@@ -41,8 +41,7 @@ Tokyu Hands, een bizar groot gebouw met allerlei huishoud en hobby spullen. Leuk
 Hier nog een avond shot van Shibuya.
 
 <!-- <iframe src="//www.youtube.com/embed/pN3vy8Ne_PU?rel=0" frameborder="0" allowfullscreen></iframe> -->
-
-Filmpje van Shibuya Crossing, busy right? xD
+<!-- Filmpje van Shibuya Crossing, busy right? xD -->
 
 ![DSC02964](https://www.danhnguyen.nl/wp-content/uploads//DSC02964-1024x575.jpg)
 

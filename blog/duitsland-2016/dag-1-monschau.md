@@ -21,10 +21,10 @@ Dit keer lekker met de auto op pad. Direct aangekomen bij onze bestemming in Mon
 
 ![dsc00798](https://www.danhnguyen.nl/wp-content/uploads//DSC00798-1024x576.jpg)
 
-Lekker Gluhwein en warme Kakao
-
 ![dsc00794](https://www.danhnguyen.nl/wp-content/uploads//DSC00794-1024x576.jpg)
 
-Dit kon natuurlijk niet missen. Bratwurst met patat.
+Lekker Gluhwein en warme Kakao
 
 ![dsc00824](https://www.danhnguyen.nl/wp-content/uploads//DSC00824-1024x576.jpg)
+
+Dit kon natuurlijk niet missen. Bratwurst met patat.

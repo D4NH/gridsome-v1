@@ -3,8 +3,8 @@ title: "Tickets geboekt!"
 date: "2015-04-28"
 image: "https://www.danhnguyen.nl/wp-content/uploads/Screen-Shot-2015-10-09-at-10.52.13.png"
 category: Jakarta, Yogjakarta, Bali - Indonesie
-excerpt: Tickets zijn geboekt nu nog de dagen aftellen voordat we kunnen gaan. Oh ja, ook nog inpakken...
-info: Nieuw jaar, nieuwe bestemming! In oktober ben ik richting het zuid-oosten van de Azië gevlogen. Dit keer Indonesie. Ik ga het Java eiland bezoeken, waar ik uiteindelijk eindig op Bali. Zelf heb ik totaal geen idee wat ik kan verwachten, dus bij deze is het allemaal verassing!
+intro: Nieuw jaar, nieuwe bestemming! In oktober ben ik richting het zuid-oosten van de Azië gevlogen. Dit keer Indonesie. Ik ga het Java eiland bezoeken, waar ik uiteindelijk eindig op Bali. Zelf heb ik totaal geen idee wat ik kan verwachten, dus bij deze is het allemaal verassing!
+excerpt: Tickets zijn geboekt nu nog de dagen aftellen voordat we kunnen gaan. Oh ja, ook nog inpakken. xD
 ---
 
 Tickets zijn geboekt nu nog de dagen aftellen voordat we kunnen gaan. Oh ja, ook nog inpakken. xD

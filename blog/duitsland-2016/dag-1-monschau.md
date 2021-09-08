@@ -3,8 +3,8 @@ title: "Dag 1 - Monschau"
 date: "2016-12-12"
 image: "https://www.danhnguyen.nl/wp-content/uploads/DSC00770.jpg"
 category: Monschau, Aachen - Duitsland
-excerpt: Dit keer lekker met de auto op pad. Direct aangekomen bij onze bestemming in Monschau...
-info: Het is nog niet afgelopen met de kerstmarkten. Dit keer in Duitsland! We bezochten plekken zoals Monchau en Aachen. Naast het bezoeken van de kerstmarkten natuurlijk ook lekker eten.
+intro: Het is nog niet afgelopen met de kerstmarkten. Dit keer in Duitsland! We bezochten plekken zoals Monchau en Aachen. Naast het bezoeken van de kerstmarkten natuurlijk ook lekker eten.
+excerpt: Dit keer lekker met de auto op pad. Direct aangekomen bij onze bestemming in Monschau.
 ---
 
 Dit keer lekker met de auto op pad. Direct aangekomen bij onze bestemming in Monschau.

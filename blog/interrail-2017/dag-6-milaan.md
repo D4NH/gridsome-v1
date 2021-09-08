@@ -8,7 +8,6 @@ excerpt: Rise and shiiiiine, goedemorgen vanuit het mooie Milaan. De zon schijnt
 
 Rise and shiiiiine, goedemorgen vanuit het mooie Milaan. De zon schijnt en de vogeltjes fluiten nog niet. Tijd om de stad te verkennen.
 
-
 ![](https://www.danhnguyen.nl/wp-content/uploads//DSC01820-700x394.jpg)
 
 ![](https://www.danhnguyen.nl/wp-content/uploads//DSC01818-700x394.jpg)

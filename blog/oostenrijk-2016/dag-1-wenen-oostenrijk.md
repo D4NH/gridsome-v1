@@ -3,8 +3,8 @@ title: "Dag 1 - Wenen, Oostenrijk"
 date: "2016-11-18"
 image: "https://www.danhnguyen.nl/wp-content/uploads/DSC00419.jpg"
 category: Wenen - Oostenrijk
-info: Het wordt weer lekker koud, de avonden zijn vroeg donker. Dus tijd om en nog kouder plekje op te zoeken dan Nederland. Dit keer naar Wenen in Oostenrijk om ‘vroeg’ de kerstmarkten te bezoeken.
-excerpt: Dachten we lekker snel weg te kunnen vanuit Rotterdam Airport, hebben we toch nog twee uur vertraging gehad.. Goed...
+intro: Het wordt weer lekker koud, de avonden zijn vroeg donker. Dus tijd om en nog kouder plekje op te zoeken dan Nederland. Dit keer naar Wenen in Oostenrijk om ‘vroeg’ de kerstmarkten te bezoeken.
+excerpt: Dachten we lekker snel weg te kunnen vanuit Rotterdam Airport, hebben we toch nog twee uur vertraging gehad.. Goed begin.
 ---
 
 Dachten we lekker snel weg te kunnen vanuit Rotterdam Airport, hebben we toch nog twee uur vertraging gehad.. Goed begin.

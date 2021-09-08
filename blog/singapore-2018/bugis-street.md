@@ -2,10 +2,12 @@
 title: "Bugis Food Street"
 date: "2018-11-24"
 image: "https://www.danhnguyen.nl/wp-content/uploads/DSC05177.jpg"
-info: Gezien we toch in de buurt zijn. Weekendje Singapore in november 2018!
+intro: Gezien we toch in de buurt zijn. Weekendje Singapore in november 2018!
 excerpt: Op zoek naar eten.. en natuurlijk genieten van het uitzicht...
 category: Marina Bay Sands, Bugis Street - Singapore
 ---
+
+Op zoek naar eten.. en natuurlijk genieten van het uitzicht...
 
 ![](https://www.danhnguyen.nl/wp-content/uploads//20181124_071736-700x394.jpg)
 

@@ -6,7 +6,6 @@ category: Jakarta, Yogjakarta, Bali - Indonesie
 excerpt: Starten met een vullend ontbijt...
 ---
 
-
 ![image](https://www.danhnguyen.nl/wp-content/uploads//image314-1024x576.jpg)
 
 Starten met een vullend ontbijt.

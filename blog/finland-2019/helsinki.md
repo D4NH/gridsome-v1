@@ -2,10 +2,12 @@
 title: "Helsinki"
 date: "2019-02-10"
 image: "https://www.danhnguyen.nl/wp-content/uploads/20190210_161929.jpg"
-info: Nieuwe jaar, nieuwe landen! In 2019 bezoeken we Finland. Op zoek naar Santa Claus in de Santa Village en het noorderlicht bekijken in Rovaniemi.
-category: Helsinki, Rovaniemi, Tampere - Finland
+intro: Nieuwe jaar, nieuwe landen! In 2019 bezoeken we Finland. Op zoek naar Santa Claus in de Santa Village en het noorderlicht bekijken in Rovaniemi.
 excerpt: Brr erg koud, dan maar opzoek naar lekker eten en natuurlijk genieten van de omgeving...
+category: Helsinki, Rovaniemi, Tampere - Finland
 ---
+
+Brr erg koud, dan maar opzoek naar lekker eten en natuurlijk genieten van de omgeving...
 
 ![](https://www.danhnguyen.nl/wp-content/uploads//DSC05570-700x394.jpg)
 

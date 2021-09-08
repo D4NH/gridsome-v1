@@ -3,8 +3,8 @@ title: "Mallorca"
 date: "2019-09-08"
 image: "https://www.danhnguyen.nl/wp-content/uploads/DSC06301.jpg"
 category: Palma De Mallorca - Spanje
-info: Weekendje weg, genieten van de zon!
-excerpt: Weekendje weg, genieten van de zon...
+intro: Weekendje weg, genieten van de zon!
+excerpt: Heerlijk dit weer. Even de stad verkennen.
 ---
 
 Heerlijk dit weer. Even de stad verkennen.

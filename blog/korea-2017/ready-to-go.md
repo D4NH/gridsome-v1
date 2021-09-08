@@ -3,8 +3,8 @@ title: "Ready to go!"
 date: "2017-07-26"
 image: "https://www.danhnguyen.nl/wp-content/uploads/header-schiphol.jpg"
 category: Seoul, Jeju Island - Zuid Korea
-excerpt: Woaw wat een periode. In korte tijd een nieuwe woning gevonden. Alles verhuisd, maar gelukkig klaar voor de grote...
-info: In de zomer van 2017 lekker naar Azie. Dit keer Zuid-Korea!! We gaan door verschillende streken zoals Gyeonggi, Gangwon en Gyeongbuk.
+intro: In de zomer van 2017 lekker naar Azie. Dit keer Zuid-Korea!! We gaan door verschillende streken zoals Gyeonggi, Gangwon en Gyeongbuk.
+excerpt: Woaw wat een periode. In korte tijd een nieuwe woning gevonden. Alles verhuisd, maar gelukkig klaar voor de grote vakantie! Alles is ingepakt en klaar om te gaan. Dit keer met 2 backpacks ipv grote koffers!
 ---
 
 Woaw wat een periode. In korte tijd een nieuwe woning gevonden. Alles verhuisd, maar gelukkig klaar voor de grote vakantie! Alles is ingepakt en klaar om te gaan. Dit keer met 2 backpacks ipv grote koffers!

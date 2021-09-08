@@ -3,8 +3,8 @@ title: "Day 1 - Zwarte Woud"
 date: "2016-07-25"
 image: "https://www.danhnguyen.nl/wp-content/uploads/20160725_175249-e1470213649194.jpg"
 category: Zwarte woud - Duitsland
-excerpt: Rond 8.00 vertrokken wij naar het oosten van het land. We hadden afgesproken om elkaar te ontmoeten bij de laatste...
-info: Lekker een weekje er tussen uit met vrienden. Dit keer naar het zuiden van Duitsland, Zwarte-woud. Lekker kamperen met een tent. Nou ja, wel luxe dan, op de tent na.
+intro: Lekker een weekje er tussen uit met vrienden. Dit keer naar het zuiden van Duitsland, Zwarte-woud. Lekker kamperen met een tent. Nou ja, wel luxe dan, op de tent na.
+excerpt: Rond 8.00 vertrokken wij naar het oosten van het land. We hadden afgesproken om elkaar te ontmoeten bij de laatste tankstation voor de grens.
 ---
 
 Rond 8.00 vertrokken wij naar het oosten van het land. We hadden afgesproken om elkaar te ontmoeten bij de laatste tankstation voor de grens.

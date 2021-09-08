@@ -3,8 +3,8 @@ title: "Day 1 - Buda Castle, Fishermans Bastion, Mátyás Church"
 date: "2016-02-25"
 image: "https://www.danhnguyen.nl/wp-content/uploads/DSC08712-1.jpg"
 category: Budapest - Hongarije
-info: Even lekker een weekje er tussen uit. Dit keer naar het oosten van Europa, Budapest, Hongarije. Eens zien hoe anders het hier is vergeleken het westen van Europa.
-excerpt: Starten met een vroege maar korte vlucht naar Budapest...
+intro: Even lekker een weekje er tussen uit. Dit keer naar het oosten van Europa, Budapest, Hongarije. Eens zien hoe anders het hier is vergeleken het westen van Europa.
+excerpt: Starten met een vroege maar korte vlucht naar Budapest.
 ---
 
 Starten met een vroege maar korte vlucht naar Budapest.

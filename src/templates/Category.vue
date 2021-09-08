@@ -19,7 +19,7 @@
                 </li>
             </ul>
 
-            <p>{{ $page.category.belongsTo.edges.filter((item) => item.node.info)[0].node.info }}</p>
+            <p>{{ $page.category.belongsTo.edges.filter((item) => item.node.intro)[0].node.intro }}</p>
         </div>
 
         <hr class="my-5" />
@@ -50,7 +50,7 @@
                         <div class="author-date mt-3">
                             Door Danh Nguyen
                             <span class="line"></span>
-                            <i class="fa fa-clock-o" aria-hidden="true"></i> {{ item.node.date }}
+                            <font-awesome class="mr-1" :icon="['far', 'calendar']" /> {{ item.node.date }}
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
               image
               path
               date
-              info
+              intro
               category {
                 id
                 title

@@ -33,12 +33,12 @@
                     <h5>{{ category.node.title }}</h5>
                 </g-link>
 
-                <small>{{ category.node.belongsTo.edges.filter((post) => post.node.info)[0].node.info }}</small>
+                <small>{{ category.node.belongsTo.edges.filter((post) => post.node.intro)[0].node.intro }}</small>
 
                 <div class="author-date mt-3">
                     Door Danh Nguyen
                     <span class="line"></span>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <font-awesome class="mr-1" :icon="['far', 'calendar']" />
                     {{ category.node.belongsTo.edges.filter((post) => post.node.date)[0].node.date }}
                 </div>
             </div>
@@ -91,7 +91,7 @@ query {
               ... on BlogPost {
                 id
                 image
-                info
+                intro
                 date
               }
             }

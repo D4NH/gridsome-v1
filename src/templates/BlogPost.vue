@@ -36,7 +36,7 @@
                     <strong>Vorige</strong><br />
                     <a :href="previousPost.path">{{ previousPost.title }}</a
                     ><br />
-                    <small>{{ previousPost.intro }}</small>
+                    <small>{{ previousPost.excerpt }}</small>
                 </div>
             </div>
             <div class="col">
@@ -44,7 +44,7 @@
                     <strong>Volgende</strong><br />
                     <a :href="nextPost.path">{{ nextPost.title }}</a
                     ><br />
-                    <small>{{ nextPost.intro }}</small>
+                    <small>{{ nextPost.excerpt }}</small>
                 </div>
             </div>
         </div>

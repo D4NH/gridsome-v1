@@ -13,6 +13,7 @@ module.exports = {
                 remark: {
                     externalLinksTarget: '_blank',
                     externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+                    plugins: [require('remark-attr')]
                 },
                 refs: {
                     category: {

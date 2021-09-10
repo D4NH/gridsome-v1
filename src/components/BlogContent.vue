@@ -31,13 +31,13 @@ h6 {
 <style lang="scss">
 .blog-content {
     p {
-        width: 700px;
+        max-width: 700px;
         margin: 15px auto;
     }
 
     img,
     .g-image {
-        width: 700px;
+        // max-width: 700px;
         height: auto;
         object-fit: contain;
         margin: 15px auto 0;

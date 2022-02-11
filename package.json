@@ -18,7 +18,7 @@
         "gh-pages": "^2.2.0",
         "gridsome": "^0.7.14",
         "gridsome-plugin-keep-processed-images": "github:dominiquedutra/gridsome-plugin-keep-processed-images",
-        "node-sass": "^4.13.1",
+        "node-sass": "^7.0.0",
         "remark-attr": "^0.11.1",
         "sass-loader": "^7.0.0",
         "v-lazy-image": "^1.4.0"

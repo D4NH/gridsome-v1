@@ -8,8 +8,8 @@
             <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav class="ml-auto">
                     <g-link class="nav--link" to="/about">Over mij</g-link>
-                    <g-link class="nav--link" to="/blog">Blog</g-link>
-                    <g-link class="nav--link" to="/projecten">Projecten</g-link>
+                    <!-- <g-link class="nav--link" to="/blog">Blog</g-link> -->
+                    <!-- <g-link class="nav--link" to="/projecten">Projecten</g-link> -->
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>

@@ -37,7 +37,7 @@ h6 {
 
     img,
     .g-image {
-        // max-width: 700px;
+        max-width: 700px;
         height: auto;
         object-fit: contain;
         margin: 15px auto 0;

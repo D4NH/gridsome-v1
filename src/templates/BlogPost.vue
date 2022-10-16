@@ -5,7 +5,7 @@
                 class="greet-image"
                 :src="$page.post.image ? $page.post.image : 'https://placehold.co/460x200?text=404'"
             />
-            <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
+            <g-image class="avatar" src="~/assets/images/profile.jpg" />
         </div>
         <div class="intro text-center">
             <h2 class="mb-3">{{ $page.post.title ? $page.post.title : '-' }}</h2>

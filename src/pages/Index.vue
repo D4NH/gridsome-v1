@@ -1,8 +1,8 @@
 <template>
     <Layout>
         <div class="greeting">
-            <g-image class="greet-image" src="~/assets/images/home.jpg" />
-            <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
+            <g-image class="greet-image" src="~/assets/images/blog.jpg" />
+            <g-image class="avatar" src="~/assets/images/profile.jpg" />
         </div>
 
         <div class="intro text-center">
@@ -22,44 +22,33 @@
                 </li>
             </ul>
             <p>
-                Ik ben Frontend Developer en dit is mijn portfolio. Op deze site neem ik jullie graag mee met mijn
-                reizen. Verder hou ik me bezig met het omzetten van grafische ontwerpen naar volledig functionele
-                websites welke geschikt zijn voor mobiele en desktop apparaten. Bekijk mijn uitgevoerde projecten of
-                lees meer over mijzelf.
+                Mijn naam is Danh (Jan) Nguyen. Ik hou van de laatste gadgets en wil ze dan ook graag altijd
+                <strike>hebben</strike> uitproberen. In mijn vrijetijd speel ik badminton, games en lees ik japanse
+                manga’s. Verder hou ik van reizen die je op deze pagina als post kan lezen.
             </p>
+            <p>Waar gaan we dit keer naartoe?</p>
         </div>
 
         <hr class="my-5" />
 
-        <div class="panel row mb-5" v-for="category in orderedCategories" :key="category.node.id">
-            <div class="mx-auto col-md-10">
-                <div class="row">
-                    <div class="panel__img col-sm-4">
-                        <g-link :to="category.node.path" class="blog-post">
-                            <v-lazy-image
-                                src-placeholder="https://dummyimage.com/242x170/e0e0e0/e0e0e0.png"
-                                :src="categoryImage(category)"
-                                class="post-image"
-                                alt="image"
-                            />
-                        </g-link>
-                    </div>
-                    <div class="panel__content panel__content--no-padding col">
-                        <g-link :to="category.node.path" class="blog-post">
-                            <h5 class="subtitle ellipsis">{{ category.node.title }}</h5>
-                        </g-link>
+        <div class="row">
+            <div class="mb-5 col-sm-6" v-for="category in orderedCategories" :key="category.node.id">
+                <g-link :to="category.node.path" class="blog-post">
+                    <v-lazy-image
+                        src-placeholder="https://dummyimage.com/242x170/e0e0e0/e0e0e0.png"
+                        :src="categoryImage(category)"
+                        class="post-image mb-3"
+                    />
+                    <h5>{{ category.node.title }}</h5>
+                </g-link>
 
-                        <small>{{
-                            category.node.belongsTo.edges.filter((post) => post.node.intro)[0].node.intro
-                        }}</small>
+                <small>{{ category.node.belongsTo.edges.filter((post) => post.node.intro)[0].node.intro }}</small>
 
-                        <div class="author-date mt-3">
-                            Door Danh Nguyen
-                            <span class="line"></span>
-                            <font-awesome class="mr-1" :icon="['far', 'calendar']" />
-                            {{ category.node.belongsTo.edges.filter((post) => post.node.date)[0].node.date }}
-                        </div>
-                    </div>
+                <div class="author-date mt-3">
+                    Door Danh Nguyen
+                    <span class="line"></span>
+                    <font-awesome class="mr-1" :icon="['far', 'calendar']" />
+                    {{ category.node.belongsTo.edges.filter((post) => post.node.date)[0].node.date }}
                 </div>
             </div>
         </div>
@@ -73,8 +62,10 @@ export default {
     components: {
         VLazyImage,
     },
-    metaInfo: {
-        title: 'Danh Nguyen | Frontend Developer',
+    metaInfo() {
+        return {
+            title: 'Danh Nguyen | Frontend Developer',
+        };
     },
     computed: {
         orderedCategories() {
@@ -85,7 +76,7 @@ export default {
                     new Date(a.node.belongsTo.edges[0].node.date.split('-'))
             );
 
-            return sortedCategories.slice(0, 3);
+            return sortedCategories;
         },
     },
     methods: {
@@ -135,7 +126,43 @@ query {
     filter: blur(0);
 }
 
-.greet-image {
-    object-position: center;
+.author {
+    &-date {
+        font-size: 9px;
+        color: #b3b4b9;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.category {
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.panel {
+    &__img {
+        &:hover {
+            .panel__content a {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.line {
+    border-bottom: 1px solid gray;
+    width: 20px;
+    height: 1px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    height: 200px;
 }
 </style>

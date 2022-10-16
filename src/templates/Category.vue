@@ -2,7 +2,7 @@
     <Layout :hideHeader="true" :disableScroll="true">
         <div class="greeting">
             <g-image class="greet-image" :src="categoryImage($page.category)" />
-            <g-image class="avatar" src="~/assets/images/48395643_1_n.jpg" />
+            <g-image class="avatar" src="~/assets/images/profile.jpg" />
         </div>
 
         <div class="intro text-center">

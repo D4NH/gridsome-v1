@@ -13,14 +13,21 @@
                     nguyen.dtd@gmail.com
                 </li>
                 <li class="list-inline-item ml-3">
+                    <font-awesome class="mr-1" :icon="['fas', 'birthday-cake']" />
+                    27-02-1987
+                </li>
+                <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
                     Nederland
                 </li>
             </ul>
             <p>
-                Mijn naam is Danh (Jan) Nguyen. Geboren op 27-02-1987 te Venlo. Wonend in Capelle a/d IJssel. Ik hou van
-                de laatste gadgets en wil ze dan ook graag altijd <strike>hebben</strike> uitproberen. In mijn vrijetijd
-                speel ik badminton, games op de PlayStation en lees ik Japanse Manga’s.
+                Ik ben Frontend Developer en dit is mijn portfolio. Op deze site neem ik jullie graag mee met mijn
+                reizen. Verder hou ik me bezig met het omzetten van grafische ontwerpen naar volledig functionele
+                websites welke geschikt zijn voor mobiele en desktop apparaten. Ik ben verder te vinden op
+                <a href="https:/www.facebook.com/nguyendtd" target="_blank">Facebook</a>,
+                <a href="https://www.instagram.com/danhnguyen_nl" target="_blank">Instagram</a> en
+                <a href="https://twitter.com/nguyendanh_/" target="_blank">Twitter</a>
             </p>
         </div>
 

@@ -4,6 +4,7 @@ date: "2021-08-21"
 image: "https://www.danhnguyen.nl/wp-content/uploads/20210827_164716-scaled-e1631192411229.jpg"
 category: Dubrovnik, Hvar, Split, Zadar - Kroatie
 intro: Eindelijk, na anderhalf jaar. Kroatie! Naast een stedentrip door historische steden als Dubrovnik, een bezoek aan de natuurparken zoals de National Park Plitvice en lekker chillen aan de stranden aan de Adriatische Zee.
+wiki: Lorem
 excerpt: Alles ingepakt, klaar om te gaan! Het weer valt in Nederland momenteel een beetje tegen. Hopelijk hebben we veel zon als we aankomen in Kroatie.
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Goreme"
 date: "2022-09-30"
-image: "https://www.danhnguyen.nl/wp-content/uploads/20220930_072447.jpg"
+image: "https://www.danhnguyen.nl/wp-content/uploads/20220930_175421.jpg"
 category: Goreme, Antalya, Istanbul - Turkije
 intro: Laatste jaar dat we met onze dochter buiten de schoolvakanties kunnen reizen. Dit keer gaan we naar Turkije. We komen langs plekken zoals Goreme, Antalya en Istanbul.
 excerpt: Goreme ook wel bekend voor de 'Insta' luchtbalonnen en mooie landschappen.

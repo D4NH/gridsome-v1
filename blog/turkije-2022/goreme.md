@@ -1,0 +1,47 @@
+---
+title: "Goreme"
+date: "2022-09-30"
+image: "https://www.danhnguyen.nl/wp-content/uploads/20220930_072447.jpg"
+category: Goreme, Antalya, Istanbul - Turkije
+intro: Laatste jaar dat we met onze dochter buiten de schoolvakanties kunnen reizen. Dit keer gaan we naar Turkije. We komen langs plekken zoals Goreme, Antalya en Istanbul.
+excerpt: Goreme ook wel bekend voor de 'Insta' luchtbalonnen en mooie landschappen.
+---
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20220930_072447.jpg)
+
+We starten in de lounge van Rotterdam Airport.
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20220930_175421.jpg)
+
+Uitzicht vanuit ons hotel, dat is nog wat anders dan het platte landschap in Nederland. We verbleven in de Elite Cave Suites. Echte aanrader, op het ontbijt na dan.
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20220930_180326.jpg)
+
+Zonsondergang op de berg boven ons hotel.
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_070254.jpg)
+
+Sta je op en zie je ineens allemaal dit om je heen!
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_063521.jpg)
+
+Bizar!
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_101231.jpg)
+
+Rest van de dag zijn we rond gaan touren. Verschillende plekken bezocht en genieten van het uitzicht.
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_112654.jpg)
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_110237.jpg)
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_140037.jpg)
+
+We dalen af naar de Ilhara Vallei
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_140843.jpg)
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_142047.jpg)
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_142319.jpg)
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_143657.jpg)
+
+![](https://www.danhnguyen.nl/wp-content/uploads/20221001_161901.jpg)
+

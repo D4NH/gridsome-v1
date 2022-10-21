@@ -13,7 +13,7 @@
             <ul class="additional list-inline">
                 <li class="list-inline-item">
                     <font-awesome class="mr-1" :icon="['fas', 'calendar-day']" />
-                    {{ $page.post.date ? $page.post.date : '-' }}
+                    {{ $page.post.date ? setDate($page.post.date) : '-' }}
                 </li>
                 <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
@@ -112,6 +112,15 @@ export default {
 
             this.previousPost = currentBlogPostId === 0 ? null : allBlogs[currentBlogPostId - 1].node;
             this.nextPost = currentBlogPostId === allBlogs.length - 1 ? null : allBlogs[currentBlogPostId + 1].node;
+        },
+        setDate(date) {
+            const newDate = new Date(date);
+            return new Intl.DateTimeFormat('nl-NL', {
+                year: 'numeric',
+                month: 'long',
+                day: '2-digit',
+                hour12: false,
+            }).format(newDate);
         },
     },
     mounted() {

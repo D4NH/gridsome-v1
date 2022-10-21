@@ -11,7 +11,7 @@
             <ul class="additional list-inline">
                 <li class="list-inline-item">
                     <font-awesome class="mr-1" :icon="['fas', 'calendar-day']" />
-                    {{ $page.category.belongsTo.edges[0].node.date }}
+                    {{ setDate($page.category.belongsTo.edges[0].node.date) }}
                 </li>
                 <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
@@ -48,9 +48,8 @@
                         </g-link>
 
                         <div class="author-date mt-3">
-                            Door Danh Nguyen
                             <span class="line"></span>
-                            <font-awesome class="mr-1" :icon="['far', 'calendar']" /> {{ item.node.date }}
+                            <font-awesome class="mr-1" :icon="['far', 'calendar']" /> {{ setDate(item.node.date) }}
                         </div>
                     </div>
                 </div>
@@ -103,6 +102,15 @@ export default {
             const postImage = page.belongsTo.edges[Math.floor(Math.random() * page.belongsTo.edges.length)].node.image;
 
             return postImage ? postImage : 'https://placehold.co/460x200?text=404';
+        },
+        setDate(date) {
+            const newDate = new Date(date);
+            return new Intl.DateTimeFormat('nl-NL', {
+                year: 'numeric',
+                month: 'long',
+                day: '2-digit',
+                hour12: false,
+            }).format(newDate);
         },
     },
 };

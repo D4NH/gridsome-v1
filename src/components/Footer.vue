@@ -1,11 +1,20 @@
 <template>
     <footer class="page-footer font-small teal py-4">
         <div class="footer-copyright text-center">
-            © 2017 - 2020 Copyright Danh Nguyen | Frontend Developer
-            <!-- <a target="_blank" rel="noopener" href="https://loke.dev/"> Loke Carlsson</a> -->
+            © 2017 - {{ getCurrentYear() }} Copyright Danh Nguyen | Frontend Developer
         </div>
     </footer>
 </template>
+
+<script>
+export default {
+    methods: {
+        getCurrentYear() {
+            return new Date().getFullYear();
+        },
+    },
+};
+</script>
 
 <style lang="scss">
 footer {

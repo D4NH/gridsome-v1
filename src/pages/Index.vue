@@ -14,7 +14,7 @@
                 </li>
                 <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'birthday-cake']" />
-                    27-02-1987
+                    {{ setDate('1987-02-27') }}
                 </li>
                 <li class="list-inline-item ml-3">
                     <font-awesome class="mr-1" :icon="['fas', 'map-marker-alt']" />
@@ -24,7 +24,7 @@
             <p>
                 Mijn naam is Danh (Jan) Nguyen. Ik hou van de laatste gadgets en wil ze dan ook graag altijd
                 <strike>hebben</strike> uitproberen. In mijn vrijetijd speel ik badminton, games en lees ik japanse
-                manga’s. Verder hou ik van reizen die je op deze pagina als post kan lezen.
+                manga’s. Verder hou ik van reizen die je op deze pagina kan vinden.
             </p>
             <p>Waar gaan we dit keer naartoe?</p>
         </div>
@@ -32,7 +32,16 @@
         <hr class="my-5" />
 
         <div class="row">
-            <div class="mb-5 col-sm-6" v-for="category in orderedCategories" :key="category.node.id">
+            <div class="mb-5 col-sm-6 d-flex flex-column" v-for="category in orderedCategories" :key="category.node.id">
+                <!-- SKIP CATEGORY IF ONLY ONE POST -->
+                <!-- <g-link
+                    :to="
+                        category.node.belongsTo.edges.length === 1
+                            ? category.node.belongsTo.edges[0].node.path
+                            : category.node.path
+                    "
+                    class="blog-post"
+                > -->
                 <g-link :to="category.node.path" class="blog-post">
                     <v-lazy-image
                         src-placeholder="https://dummyimage.com/242x170/e0e0e0/e0e0e0.png"
@@ -42,13 +51,15 @@
                     <h5>{{ category.node.title }}</h5>
                 </g-link>
 
-                <small>{{ category.node.belongsTo.edges.filter((post) => post.node.intro)[0].node.intro }}</small>
+                <small class="mb-3">{{
+                    category.node.belongsTo.edges.filter((post) => post.node.intro)[0].node.intro
+                }}</small>
 
-                <div class="author-date mt-3">
-                    Door Danh Nguyen
+                <div class="author-date mt-auto">
                     <span class="line"></span>
+                    <!-- Door Danh Nguyen<br> -->
                     <font-awesome class="mr-1" :icon="['far', 'calendar']" />
-                    {{ category.node.belongsTo.edges.filter((post) => post.node.date)[0].node.date }}
+                    {{ setDate(category.node.belongsTo.edges.filter((post) => post.node.date)[0].node.date) }}
                 </div>
             </div>
         </div>
@@ -87,6 +98,15 @@ export default {
 
             return postImage ? postImage : 'https://placehold.co/460x200?text=404';
         },
+        setDate(date) {
+            const newDate = new Date(date);
+            return new Intl.DateTimeFormat('nl-NL', {
+                year: 'numeric',
+                month: 'long',
+                day: '2-digit',
+                hour12: false,
+            }).format(newDate);
+        },
     },
 };
 </script>
@@ -103,6 +123,7 @@ query {
           edges {
             node {
               ... on BlogPost {
+                path
                 id
                 image
                 intro

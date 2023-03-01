@@ -11,7 +11,7 @@
         "@gridsome/plugin-google-analytics": "^0.1.0",
         "@gridsome/plugin-sitemap": "^0.2.3",
         "@gridsome/source-filesystem": "^0.6.2",
-        "@gridsome/transformer-remark": "^0.5.0",
+        "@gridsome/transformer-remark": "^0.6.4",
         "@noxify/gridsome-plugin-remark-image-download": "git+https://github.com/noxify/gridsome-plugin-remark-image-download.git",
         "bootstrap": "^4.3.1",
         "bootstrap-vue": "^2.0.4",
